@@ -12,10 +12,10 @@ PhishZoo: directory for PhishZoo
 # Instructions
 To run EMD, simply go into EMD/ 
 ```
-python emd_manual.py -f [path_to_data_folder] -r [result.txt]
+python emd.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
 
 Similarly, for PhishZoo, go into PhishZoo/
 ```
-python phishzoo_manual.py -f [path_to_data_folder] -r [result.txt]
+python phishzoo.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
