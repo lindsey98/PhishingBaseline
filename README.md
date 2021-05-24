@@ -21,7 +21,7 @@ tensorflow == 1.13.1
 
 
 # Instructions
-The data folder should be organized in this format 
+The data folder should be organized in [this format]()
 ## To run EMD
 ```
 cd EMD/ 
