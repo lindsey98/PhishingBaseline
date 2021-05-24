@@ -1,5 +1,5 @@
 # Phishing baseline
-Implementations of two phishing detection and identification baselines
+Implementations of phishing detection and identification baselines
 
 - EMD: Fu, A. Y., Wenyin, L., & Deng, X. (2006). Detecting phishing web pages with visual similarity assessment based on earth mover's distance (EMD). IEEE transactions on dependable and secure computing, 3(4), 301-311. This paper uses Earth Mover Distance to detect the similarity between two webpage screenshots. 
 
