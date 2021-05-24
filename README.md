@@ -21,7 +21,7 @@ tensorflow == 1.13.1
 
 
 # Instructions
-The data folder should be organized in [this format]()
+The data folder should be organized in [this format](https://github.com/lindsey98/PhishingBaseline/tree/main/test_sites/alibaba.com)
 ## To run EMD
 ```
 cd EMD/ 
