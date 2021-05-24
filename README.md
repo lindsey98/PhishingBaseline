@@ -11,10 +11,14 @@ Implementations of two phishing detection and identification baselines
 
 - URLNet: Le, H., Pham, Q., Sahoo, D., & Hoi, S. C. (2018). URLNet: Learning a URL representation with deep learning for malicious URL detection. arXiv preprint arXiv:1802.03162.
 
-# Project structure
-EMD: directory for EMD 
-PhishZoo: directory for PhishZoo
-VisualPhishnet: code adapted from https://github.com/S-Abdelnabi/VisualPhishNet.git
+# Requirements
+```  
+python == 3.6
+opencv-python == 3.4.2.17
+opencv-contrib-python == 3.4.2.17
+tensorflow == 1.13.1
+```
+
 
 # Instructions
 ## To run EMD
@@ -28,7 +32,7 @@ python emd.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_
 cd PhishZoo/
 python phishzoo.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
-## For VisualPhishnet 
+## For VisualPhishnet (Fork from https://github.com/S-Abdelnabi/VisualPhishNet.git)
 Download pretrained model [here](https://drive.google.com/file/d/1uCQWaOs2zFR1oAqbd7lZh_73N89YUaHy/view?usp=sharing), [Target list embedding](https://drive.google.com/file/d/1_uCJFK-gdinbblIczYEUFmlHa0c0-ALt/view?usp=sharing), [Targetlist labels](https://drive.google.com/file/d/1l29pzF1BI6KGRFGU-1IyfiWaVcC_j2PV/view?usp=sharing), [Targetlist filename list](https://drive.google.com/file/d/1c4h9F1OjSVz8mAR0xUeH-4AzixW_l6j5/view?usp=sharing)
 ```
 cd VisualPhishnet/
