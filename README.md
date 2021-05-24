@@ -27,7 +27,7 @@ cd EMD/
 python emd.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
 
-## To run PhishZoo, go into 
+## To run PhishZoo
 ```
 cd PhishZoo/
 python phishzoo.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
@@ -63,4 +63,3 @@ python test.py \
 
   --data.subword_dict_dir output_5/subwords_dict.p 
 ```
-
