@@ -7,6 +7,10 @@ Implementations of two phishing detection and identification baselines
 
 - VisualPhishnet: Abdelnabi, S., Krombholz, K., & Fritz, M. (2020, October). VisualPhishNet: Zero-Day Phishing Website Detection by Visual Similarity. In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (pp. 1681-1698). This work trains deep learning Siamese model to compare two webpage screenshots.
 
+- StackModel: Li, Y., Yang, Z., Chen, X., Yuan, H., & Liu, W. (2019). A stacking model using URL and HTML features for phishing webpage detection. Future Generation Computer Systems, 94, 27-39.
+
+- URLNet: Le, H., Pham, Q., Sahoo, D., & Hoi, S. C. (2018). URLNet: Learning a URL representation with deep learning for malicious URL detection. arXiv preprint arXiv:1802.03162.
+
 # Project structure
 EMD: directory for EMD 
 PhishZoo: directory for PhishZoo
