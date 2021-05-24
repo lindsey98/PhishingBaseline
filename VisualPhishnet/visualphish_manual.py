@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     visualphish_main.main(path, results)
 
-    ## Example:python visualphish_manual.py --folder ..\\backup\\DATABASE\\260720 --results .
+    ## Example: python visualphish_manual.py --folder ..\\backup\\DATABASE\\260720 --results .
 
 
 

@@ -159,7 +159,7 @@ def main(data_folder, result_path, ts = 1.5):
             phish = 0
 
         with open(result_path, 'a+', encoding='utf-8', errors='ignore') as f:
-            f.write(url+'\t'+str(phish)+'\t'+str(min_distances)+'\n')
+            f.write(url+'\t'+str(phish)+'\t'+str(min_distances)+str(only_names[0])+'\n')
 
 
 

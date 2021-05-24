@@ -13,16 +13,29 @@ PhishZoo: directory for PhishZoo
 VisualPhishnet: code adapted from https://github.com/S-Abdelnabi/VisualPhishNet.git
 
 # Instructions
-To run EMD, simply go into EMD/ 
+## To run EMD
 ```
+cd EMD/ 
 python emd.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
 
-Similarly, for PhishZoo, go into PhishZoo/
+## To run PhishZoo, go into 
 ```
+cd PhishZoo/
 python phishzoo.py -f [path_to_data_folder] -m [benign|phish] -t [path_to_targetlist_folder]
 ```
-For VisualPhishnet, go into VisualPhishnet/
+## For VisualPhishnet 
 ```
+cd VisualPhishnet/
 python visualphish_manual.py -f [path_to_data_folder] -r [txt_path_to_save_result]
 ```
+## For StackModel
+```
+cd StackModel
+python test.py -f [path_to_data_folder] -o [directory_to_save_output]
+```
+## For URLNet (Fork from https://github.com/Antimalweb/URLNet)
+```
+
+```
+
