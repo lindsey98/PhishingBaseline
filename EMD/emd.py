@@ -133,10 +133,10 @@ def get_signature(path):
     for i in range(img.size[0]):
         for j in range(img.size[1]):
             pixel.append((i, j))
-            RGBA.append((r.getpixel((i, j)) % CDF,
-                         g.getpixel((i, j)) % CDF,
-                         b.getpixel((i, j)) % CDF,
-                         a.getpixel((i, j)) % CDF))
+            RGBA.append((r.getpixel((i, j)) // CDF,
+                         g.getpixel((i, j)) // CDF,
+                         b.getpixel((i, j)) // CDF,
+                         a.getpixel((i, j)) // CDF))
     # Centroid
     Ss = Counter(RGBA).most_common(s)
     signature = []
