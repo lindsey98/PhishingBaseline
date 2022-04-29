@@ -6,6 +6,7 @@ import os
 import operator
 import datetime
 import argparse
+from utils import brand_converter
 
 # Define parameters
 w = h = 100
