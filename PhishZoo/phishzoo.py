@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import datetime
 import argparse
 from tqdm import tqdm
-
+from utils import brand_converter
 
 class TokenSite():
     '''Tokenize html and url'''
